@@ -184,14 +184,14 @@ export default function App() {
             value={stats.jeuxTermines || 0}
             unit="Complétés"
             icon={<Trophy size={28} />}
-            color="bg-gradient-to-br from-emerald-500 to-emerald-600"
+            color="bg-gradient-to-br from-green-500 to-green-600"
           />
           <StatCard
             label="Qualité Moyenne"
             value={stats.scoreMoyen ? Math.round(stats.scoreMoyen) : 0}
             unit="/ 100"
             icon={<Activity size={28} />}
-            color="bg-gradient-to-br from-amber-500 to-amber-600"
+            color="bg-gradient-to-br from-yellow-500 to-yellow-600"
           />
         </div>
 
