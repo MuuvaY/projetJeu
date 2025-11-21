@@ -41,13 +41,21 @@ Docker & Docker Compose : Conteneurisation de la base de données.
 📂 Structure du Projet
 
 ProjetJeu/
+
 ├── backend/ # API Node.js
+
 │ ├── server.js # Point d'entrée et routes
+
 │ └── package.json
+
 ├── frontend/ # Interface React
+
 │ ├── public/
+
 │ └── src/ # Composants et logique
+
 ├── docker-compose.yml # Configuration MongoDB + Mongo Express
+
 └── init.js # Script d'initialisation de la DB
 
 🚀 Installation et Démarrage
@@ -73,7 +81,9 @@ Cela lancera MongoDB sur le port 27017 et Mongo Express sur le port 8081.
 Ouvrez un nouveau terminal et naviguez vers le dossier backend :
 
 cd backend
+
 npm install
+
 node server.js
 
 Le serveur démarrera sur : http://localhost:3000
@@ -83,7 +93,9 @@ Le serveur démarrera sur : http://localhost:3000
 Ouvrez un autre terminal et naviguez vers le dossier frontend :
 
 cd frontend
+
 npm install
+
 npm start
 
 Note : Si React vous signale que le port 3000 est occupé (par le backend), tapez y pour utiliser un autre port (ex: 3001).
@@ -148,4 +160,4 @@ Password : password
 
 📝 Auteur
 
-Réalisé par [Votre Nom] dans le cadre du TP MongoDB.
+Réalisé par \[Votre Nom\] dans le cadre du TP MongoDB.
